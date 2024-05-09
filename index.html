@@ -5,5 +5,11 @@
 <p>I'm a website!</p>
   <label>Hiya put text in me!: <Input type="text"></label>
    <button>Post it!</button>
+  <Button>Help me!</Button> const helpButton = document.getElementById('help-button');
+
+  function displayHelpWindow(){
+   window.open('help.html');
+  }
+  helpButton.onclick = displayHelpWindow;
 </body>
 </html>
